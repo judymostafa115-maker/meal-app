@@ -40,17 +40,19 @@ class MealsItem extends StatelessWidget {
 
                 Image.asset(
                   meal.imageUrl,
-                  width: 120,
-                  height: 120,
+                  width: 150,
+                  height: 150,
                   fit: BoxFit.cover,
                 ),
 
                 SizedBox(width: 15,),
-                Text(meal.title,
-                  style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.white
-                      ),),
+                Expanded(
+                  child: Text(meal.title,
+                    style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.white
+                        ),),
+                ),
 
                 SizedBox(width:29),
 
@@ -59,7 +61,7 @@ class MealsItem extends StatelessWidget {
                   color: Colors.white,
                   size: 18,
                 ),
-
+//hh
 
 
 
