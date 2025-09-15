@@ -24,7 +24,7 @@ class MealsItem extends StatelessWidget {
           final meal = mealsFilter[index];
           return Container(
             width: double.infinity,
-            height: 200,
+            height: 150,
 
             margin: const EdgeInsets.all(15),
             decoration: BoxDecoration(
@@ -74,4 +74,7 @@ class MealsItem extends StatelessWidget {
 
   }
 }
+
+
+
 

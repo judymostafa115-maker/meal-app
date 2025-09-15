@@ -16,16 +16,15 @@ class MealScreen extends StatelessWidget {
     }).toList();
 
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.teal,
-        title: Text(data["id"]),
-        centerTitle: true,
-      ),
+        appBar: AppBar(
+          backgroundColor: Colors.teal,
+          title: Text(data["name"]),
+          centerTitle: true,
+        ),
 
 
-       body: MealsItem()
+        body: MealsItem()
 
     );
-  }
+  }//
 }
-
